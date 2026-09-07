@@ -1,3 +1,28 @@
+# ARCHIVE NOTICE
+
+> This repository has been archived as of 2026-09-07 (v6.0 "Autumn").
+>
+> Meteorological Autumn 2026 begins on 2026-09-01 and the astronomical
+> Autumnal Equinox in 2026 begins on 2026-09-22. This release is named
+> "Autumn" to reflect the 2026 Autumn timeframe.
+>
+> References:
+> - https://www.metoffice.gov.uk/blog/2026/when-does-autumn-start
+> - https://www.timeanddate.com/calendar/autumnal-equinox.html
+> - https://www.almanac.com/content/first-day-fall-autumnal-equinox
+
+This repository is archived and will no longer receive feature updates or
+upgrades. The project release v6.0 "Autumn" is the final release. The
+program can no longer be upgraded from this point — there will be no further
+upgrade path provided by the maintainers.
+
+If you need to use the software, treat this repository as read-only. Take
+care to only run the code in controlled test environments (virtual machines
+or disposable systems) and follow the safety guidance in the README (dry-run
+mode and explicit enablement required for destructive actions).
+
+---
+
 ```markdown
 # BlueScreen Trigger v5.0
 
@@ -424,7 +449,7 @@ Supported NTSTATUS error codes:
 - Check that matplotlib is installed for fallback
 - Ensure dashboards/ directory is writable
 
-### API Server Won't Start
+### API Server WON'T START
 - Verify port 8888 is not in use
 - Check firewall settings
 - Ensure admin privileges if needed
